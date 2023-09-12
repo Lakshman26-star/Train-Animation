@@ -1,0 +1,512 @@
+.back{
+	float: right;
+	margin-top: -300px;
+	margin-right: 0px;
+	width: 500px;
+	height: 280px;
+    background-size: cover;
+	background-position: center;
+	background-image: url(st.jpg);
+}
+
+
+.div1{
+	width: 500px;
+	height: 300px;
+	background-color: red;
+	margin-right: 50px;
+
+}
+
+.trainengine{
+
+    float: right;
+    margin-top:-10px;
+	width: 120px;
+	height: 100px;
+	font-size: 16px;
+	color: white;
+	background-color: blue;
+	border-radius: 5px;
+	position: relative;
+	animation: train 5s infinite ;
+
+}
+
+
+.line2{
+	float: right;
+    margin-top: -60px;
+    margin-right: 0px;
+	width: 120px;
+	height: 5px;
+	background-color: yellow;
+	border-radius: 5px;
+	position: relative;
+}
+
+.line{
+	float: right;
+	width: 82px;
+	height: 5px;
+	margin-top: -25px;
+	margin-right: 18px;
+	background-color: gray;
+	position: relative;
+	animation: move 4s infinite;
+}
+
+@keyframes move {
+
+	0% { right: 0px;
+     top: 0px; 
+	  
+     }
+
+5% {right: 6px;
+	top: 0px;
+
+    }
+
+10% {right: 6px;
+	top: 10px;
+    }
+
+15% {right: -6px;
+	top: 10px;
+    }
+
+20% {right: -6px;
+	top: 0px;
+    } 
+
+25% {right: 6px;
+	top: 0px;
+
+    }
+
+30% {right: 6px;
+	top: 10px;
+    }
+
+35% {right: -6px;
+	top: 10px;
+    }
+
+40% {right: -6px;
+	top: 0px;
+    }               
+
+45% {right: 6px;
+	top: 0px;
+
+    }
+
+50% {right: 6px;
+	top: 10px;
+    }
+
+55% {right: -6px;
+	top: 10px;
+    }
+
+60% {right: -6px;
+	top: 0px;
+    } 
+
+65% {right: 6px;
+	top: 0px;
+
+    }
+
+70% {right: 6px;
+	top: 10px;
+    }
+
+75% {right: -6px;
+	top: 10px;
+    }
+
+80% {right: -6px;
+	top: 0px;
+    }  
+
+85% {right: 6px;
+	top: 0px;
+
+    }
+
+90% {right: 6px;
+	top: 10px;
+    }
+
+95% {right: -6px;
+	top: 10px;
+    }
+
+100% {right: -6px;
+	top: 0px;
+    } 
+
+105% {right: 6px;
+	top: 0px;
+
+    }
+                         
+}
+
+
+.lineenbox{
+	float: right;
+    margin-top: -40px;
+    margin-right: 0px;
+	width: 40px;
+	height: 5px;
+	background-color: yellow;
+	position: relative;
+}
+
+.enbox{
+
+    margin-top: -90px;
+    margin-right: 0px;
+	float: right;
+	width: 120px;
+	height: 25px;
+	background-color: blue;
+	border: solid;
+	border-color: gray;
+	border-radius: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	position: relative;
+}
+
+.win{
+	float: right;
+	margin-right: 7px;
+	width: 30px;
+	height: 25px;
+	background-color: yellow;
+
+}
+
+.smoke{
+	float: right;
+	margin-top: -150px;
+	margin-right: 20px;
+	width: 25px;
+	height: 30px;
+	background-color: blue;
+	border-radius: 4px;
+	position: relative;
+}
+
+
+.smoke1{
+	position: relative;
+	animation: train 5s infinite ;
+}
+
+.smoke1{
+	animation: smok 5s infinite ;
+    position: relative;
+}
+
+
+@keyframes smok{
+
+	from{
+		bottom: 0px;
+	}
+
+	to{
+        bottom: 100px;
+	}
+}
+
+
+
+.smokes{
+	width: 20px;
+	height: 25px;
+	margin-top: -140px;
+	margin-right: -50px; 
+	background-color: gray;
+	border-radius: 5px;
+	position: relative;
+	animation: smokey 5s infinite ;
+
+}
+
+@keyframes smokey{
+	from{
+        transform: scale(1.0);
+		border-radius:  10px;
+		background-color: gray;
+	}
+
+	to{
+		transform: scale(0.00);
+		border-radius: 10px;
+		background-color: black;
+	}
+}
+
+
+
+
+
+.round{
+    float: right;
+	margin-top: 5px;
+	margin-right: -0px;
+	width: 25px;
+	height: 5px;
+	position: relative;
+	background-color: gray;
+}
+
+.tyre1{
+	width: 35px;
+	height: 35px;
+	margin-top: 65px;
+	margin-right: 80px;
+	background-color: black;
+	border-radius: 26px;
+
+}
+
+.tyre2{
+	width: 35px;
+	height: 35px;
+	margin-top: -35px;
+	margin-right: -75px;
+	background-color: black;
+	border-radius: 26px;
+
+}
+
+.tyre12{
+	width: 35px;
+	height: 35px;
+	margin-top: 85px;
+	margin-right: 70px;
+	background-color: black;
+	border-radius: 26px;
+
+}
+
+.tyre21{
+	width: 35px;
+	height: 35px;
+	margin-top: -35px;
+	margin-right: -75px;
+	background-color: black;
+	border-radius: 26px;
+
+}
+
+.trainspace{
+	float: right;
+    margin-top: 10px;
+	width: 10px;
+	height: 80px;
+	background-color: red;
+
+}
+
+.lite{
+	width: 10px;
+	height: 10px;
+	margin-top: 65px;
+	background-color: white;
+	position: relative;
+	animation: train 5s infinite ;
+	
+}
+
+
+.train2{
+
+    float: right;
+    margin-top: 10px;
+	width: 120px;
+	height: 80px;
+	background-color: blue;
+	border-radius: 5px;
+	position: relative;
+	animation: train 5s infinite ;
+	
+}
+
+
+
+.trainen_box{
+	float: right;
+    margin-top: 50px;
+    margin-right: -6px;
+	width: 50px;
+	height: 40px;
+	background-color: blue;
+	border-radius: 5px;
+	position: relative;
+	animation: train 5s infinite ;
+	
+}
+
+.div3{
+   
+    float: right;
+	width: 500px;
+	height: 30px;
+	background-color: rgb(100,100,100);
+	position: relative;
+}
+
+.box1{
+	margin-top: 8px;
+	margin-left: 0.2px;
+	float: right;
+	width: 15px;
+	height: 15px;
+	border-radius: 3px;
+	background-color: silver;
+
+}
+
+.box2{
+	margin-top: 8px;
+	float: right;
+	width: 15px;
+	height: 15px;
+	background-color: rgb(60,60,60);
+}
+
+
+.light{
+	float: right;
+	margin-right: 35px;
+	width: 6px;
+	height: 40px;
+	background-color: yellow;
+	border-radius: 5px;
+}
+
+.base{
+	float: right;
+    margin-top:-120px;
+	width: 120px;
+	height: 100px;
+	background-color: blue;
+	border-radius: 5px;
+	position: relative;
+	
+}
+
+.base2{
+	float: right;
+    margin-top: -100px;
+	width: 120px;
+	height: 80px;
+	background-color: blue;
+	border-radius: 5px;
+	position: relative;
+	
+}
+
+.door{
+	float: right;
+    margin-top: -70px;
+    margin-right: 48px;
+	width: 25px;
+	height: 50px;
+	background-color: white;
+	position: relative;
+}
+
+.window1{
+	float: right;
+    margin-top: -62px;
+    margin-right: 10px;
+    border-radius: 3px;
+	width: 25px;
+	height: 20px;
+	background-color: white;
+	position: relative;
+
+}
+
+
+.window2{
+	float: right;
+    margin-top: -62px;
+    margin-right: 85px;
+    border-radius: 3px;
+	width: 25px;
+	height: 20px;
+	background-color: white;
+	position: relative;
+
+}
+
+.linewin{
+	margin-top: 4px;
+	width: 25px;
+	height: 2px;
+	background-color: gray;
+
+}
+
+.light1{
+	float: right;
+	margin-top: -30px;
+	margin-right: 0px;
+	width: 4px;
+	height: 10px;
+	background-color: red;
+	border-radius: 2px;
+	position: relative;
+}
+
+.light2{
+	float: right;
+	margin-top: -30px;
+	margin-right: 0px;
+	width: 4px;
+	height: 10px;
+	background-color: red;
+	border-radius: 2px;
+	position: relative;
+}
+
+.hide{
+	width: 424px;
+	height: 624px;
+	background-color: white;
+	float: right;
+	margin-right: 500px;
+	margin-top: -452px;
+	position: relative;
+}
+
+@keyframes train{
+	from{
+		right: -450px;
+	}
+
+	to{
+		right: 510px;
+	}
+}
+
+.hide1{
+	width: 450px;
+	height: 624px;
+	background-color: white;
+	float: left;
+	margin-left: 500px;
+	margin-top: -625px;
+	position: relative;
+}
+
